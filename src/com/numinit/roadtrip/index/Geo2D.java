@@ -4,7 +4,7 @@ import com.numinit.mtree.point.IPointInMetricSpace;
 import com.numinit.utils.DoubleUtils;
 
 public class Geo2D implements IPointInMetricSpace<Geo2D>, Comparable<Geo2D> {
-	private static double EARTH_RADIUS = 6378137.0d;
+	private static double EARTH_RADIUS = 6371000.0d;
 	
 	/**
 	 * Lat/lng coords of this portal
